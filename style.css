@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background-image: url(back.jpg);
+  color: #addf40;
+}
+
+a {
+  text-decoration: none;
+  color: #addf40;
+}
+
+.header-contain {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.login-contain {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  width: 400px;
+  height: 350px;
+
+  margin: auto;
+
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.login-contain>input,
+.login-contain h3,
+.login-contain div {
+  outline: none;
+  margin-bottom: 40px;
+}
+
+.login-contain .input-nick,
+.login-contain .input-pass {
+  padding: 10px;
+}
+
+.login-contain .links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-entre {
+  width: 90px;
+  height: 30px;
+  background-color: #addf40;
+  outline: none;
+  cursor: pointer;
+}
